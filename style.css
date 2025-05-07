@@ -1,0 +1,114 @@
+@font-face {
+    font-family: shadowlight;
+    src: url(Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face {
+    font-family: cead;
+    src: url(Caveat_Brush/CaveatBrush-Regular.ttf);
+}
+
+body {
+    background-image: url(images/download\ \(1\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    height: 100vh;
+}
+
+
+
+#content {
+    box-sizing: border-box !important;
+    width: 43% !important;
+
+    background-color: #dde5b6;
+    box-shadow: 7px 7px 10px #3e5227;
+    border-radius: 20px !important;
+
+}
+
+input{
+    border-color: #3e5227 !important;
+    padding: 5% 5% !important;
+}
+
+h4,
+h5 {
+    text-align: center !important;
+    padding: 6% 0% !important;
+    color: #3e5227 !important;
+    font-family: shadowlight !important;
+    font-weight: bold !important;
+}
+
+h5{
+    border-bottom: 2.5px solid #3e5227;
+}
+
+h3{
+    text-align: center;
+    color: #3e5227 !important;
+    font-family: shadowlight !important;
+    font-weight: bold !important;
+    
+}
+
+#btn {
+    width: 65% !important;
+    background-color: black !important;
+    color: white !important;
+    margin: 5% 17% !important;
+    font-family: cursive !important;
+    border: none;
+    border-radius: 4px !important;
+}
+
+#btn:disabled{
+    width: 65% !important;
+    background-color: rgb(82, 81, 81) !important;
+    color: white !important;
+    margin: 5% 17% !important;
+    border: none;
+    font-family: cursive !important;
+    border-radius: 4px !important; 
+}
+
+label {
+    display: flex !important;
+    justify-content: space-between !important;
+    border: 1px solid #3e5227;
+    border-radius: 30px !important;
+    font-family: cead;
+    color: #3e5227 !important;
+    padding: 2% 3% !important;
+}
+
+label:hover{
+    display: flex !important;
+    justify-content: space-between !important;
+    border: 1px solid #eceff0;
+    background-color: #3e5227;
+    color: #eceff0 !important;
+    border-radius: 30px !important;
+    padding: 2% 3% !important;
+}
+
+.theme {
+    color: #006d77;
+}
+
+@media screen and (min-width: 0px) and (max-width: 475px) {
+    #content {
+        width: 70% !important;
+        padding: 0px 0px !important;
+    }
+}
+@media screen and (min-width: 476px) and (max-width: 767px) {
+    #content {
+        width: 52% !important;
+    }
+}
