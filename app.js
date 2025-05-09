@@ -88,7 +88,7 @@ let score = 0;
 
 function quiz() {
     if (questions.length == index) {
-        quizBox.innerHTML = `<h3>Quiz Completed <br/> You Scored: ${score} out of ${questions.length}</h3>`;
+        quizBox.innerHTML = `<h3>Quiz Completed!!! <br/> You Scored: ${score} out of ${questions.length}</h3>`;
         btn.style.display = 'none';
     } else {
         btn.disabled = true;
